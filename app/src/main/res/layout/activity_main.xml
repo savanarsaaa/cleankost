@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EF9F9F"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="60dp"
+        android:text="SELAMAT DATANG"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/subjudul"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="3dp"
+        android:text="Silahkan Memilih sesuai kebutuhan anda"
+        android:textSize="14dp" />
+
+    <Button
+        android:id="@+id/btn_paketkomplit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Paket KOMPLIT"
+        android:backgroundTint="#FAD4D4"
+        android:textColor="@color/black"
+        android:layout_marginVertical="70dp"/>
+
+    <Button
+        android:id="@+id/btn_paketkamarmandi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Paket KAmar mandi"
+        android:textColor="@color/black"
+        android:backgroundTint="#FAD4D4"
+        android:layout_marginVertical="1dp"/>
+
+    <Button
+        android:id="@+id/btn_paketbedroom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="Paket Kamar Tidur"
+        android:backgroundTint="#FAD4D4"
+        android:layout_marginVertical="70dp"/>
+
+
+</LinearLayout>

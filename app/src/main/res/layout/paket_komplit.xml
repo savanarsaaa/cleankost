@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EF9F9F">
+
+    <TextView
+        android:id="@+id/paketkomplit"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="PAKET KOMPLIT"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/subpaketkomplit"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="30dp"
+        android:text="Silahkan isi pesanan"
+        android:textSize="14dp" />
+
+    <EditText
+        android:id="@+id/Namapk"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/your_name"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:padding="15dp"
+        android:inputType="textPersonName"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/Email"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:padding="15dp"
+        android:inputType="textEmailAddress"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/Alamat"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Alamat"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:padding="15dp"
+        android:inputType="textEmailAddress"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/btn_pesankomplit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Pesan"
+        android:backgroundTint="#FAD4D4"
+        android:textColor="@color/black"
+        android:layout_marginVertical="70dp"/>
+
+
+</LinearLayout>

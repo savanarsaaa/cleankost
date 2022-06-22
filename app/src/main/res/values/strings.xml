@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">cleankost</string>
+    <string name="swipe_left_for_register">Swipe Left for Register</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="Email">Email</string>
+    <string name="Sign_UP">Sign Up</string>
+    <string name="swipe_right_for_login">Swipe Right for Login</string>
+    <string name="REGISTER">REGISTER</string>
+    <string name="re_type_password">Re-type Password</string>
+    <string name="your_name">Full Name</string>
+    <string name="Alamat">Alamat</string>
+</resources>
