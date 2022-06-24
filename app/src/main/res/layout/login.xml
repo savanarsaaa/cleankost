@@ -53,4 +53,27 @@
         android:textColor="@color/black"
         android:layout_marginVertical="70dp"/>
 
+    <TextView
+        android:id="@+id/mausignup"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:text="belum punya akun ? "
+        android:textStyle="bold"
+        android:textSize="10dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="1dp"
+        android:textColor="#FFF2F2"/>
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:text="@string/Sign_UP"
+        android:backgroundTint="#FAD4D4"
+        android:textColor="@color/black"
+        android:layout_marginVertical="10dp"/>
+
 </LinearLayout>

@@ -2,8 +2,10 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
-    android:background="#EF9F9F">
+    android:background="#EF9F9F"
+    tools:context="com.example.cleankost.paket_kamar_tidur">
 
     <TextView
         android:id="@+id/paketkamartidur"

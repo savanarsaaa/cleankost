@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:background="#EF9F9F"
-    tools:context="com.example.cleankost.paket_komplit">
+    tools:context=".cleaningkost">
 
     <TextView
-        android:id="@+id/paketkomplit"
+        android:id="@+id/paketkamarmandi"
         android:layout_width="wrap_content"
         android:layout_height="40dp"
-        android:text="PAKET KOMPLIT"
+        android:text="CLEANING KOST"
         android:textStyle="bold"
         android:textSize="25dp"
         android:layout_marginTop="60dp"
         android:layout_marginLeft="20dp"/>
 
     <TextView
-        android:id="@+id/subpaketkomplit"
+        android:id="@+id/subpaketkamarmandi"
         android:layout_width="wrap_content"
         android:layout_height="20dp"
         android:layout_marginStart="25dp"
@@ -27,7 +27,7 @@
         android:textSize="14dp" />
 
     <EditText
-        android:id="@+id/Namapk"
+        android:id="@+id/NamaKM"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:hint="@string/your_name"
@@ -63,7 +63,7 @@
         android:textSize="15sp"/>
 
     <Button
-        android:id="@+id/btn_pesankomplit"
+        android:id="@+id/btn_pesan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -71,8 +71,7 @@
         android:textStyle="bold"
         android:text="Pesan"
         android:backgroundTint="#FAD4D4"
-        android:textColor="@color/black"
-        android:layout_marginVertical="70dp"/>
+        android:textColor="@color/black"/>
 
 
 </LinearLayout>

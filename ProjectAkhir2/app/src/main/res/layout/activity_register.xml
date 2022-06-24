@@ -1,36 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:background="#EF9F9F"
-    tools:context="com.example.cleankost.paket_komplit">
+    android:orientation="vertical"
+    tools:context=".register">
 
     <TextView
-        android:id="@+id/paketkomplit"
+        android:id="@+id/logo"
         android:layout_width="wrap_content"
-        android:layout_height="40dp"
-        android:text="PAKET KOMPLIT"
+        android:layout_height="wrap_content"
+        android:text="@string/REGISTER"
+        android:textAlignment="center"
         android:textStyle="bold"
-        android:textSize="25dp"
-        android:layout_marginTop="60dp"
-        android:layout_marginLeft="20dp"/>
-
-    <TextView
-        android:id="@+id/subpaketkomplit"
-        android:layout_width="wrap_content"
-        android:layout_height="20dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginBottom="30dp"
-        android:text="Silahkan isi pesanan"
-        android:textSize="14dp" />
+        android:textSize="30dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginBottom="80dp"
+        android:layout_marginTop="60dp"/>
 
     <EditText
-        android:id="@+id/Namapk"
+        android:id="@+id/Nama"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:hint="@string/your_name"
+        android:hint="Full Name"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginBottom="10dp"
@@ -51,28 +44,38 @@
         android:textSize="15sp" />
 
     <EditText
-        android:id="@+id/Alamat"
+        android:id="@+id/password"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:hint="Alamat"
+        android:hint="@string/password"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginBottom="10dp"
         android:padding="15dp"
-        android:inputType="textEmailAddress"
-        android:textSize="15sp"/>
+        android:inputType="textPassword"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/repassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/re_type_password"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="15dp"
+        android:inputType="textPassword"
+        android:textSize="15sp" />
 
     <Button
-        android:id="@+id/btn_pesankomplit"
-        android:layout_width="wrap_content"
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        android:text="Pesan"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_centerInParent="true"
         android:backgroundTint="#FAD4D4"
-        android:textColor="@color/black"
-        android:layout_marginVertical="70dp"/>
-
+        android:textColor="@android:color/black"
+        android:text="@string/Sign_UP"/>
 
 </LinearLayout>

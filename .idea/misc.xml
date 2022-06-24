@@ -3,11 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Sava/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Sava/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Sava/app/src/main/res/layout/login.xml" value="0.25" />
-        <entry key="..\:/Sava/app/src/main/res/layout/paket_kamar_mandi.xml" value="0.24895833333333334" />
-        <entry key="..\:/Sava/app/src/main/res/layout/paket_kamar_tidur.xml" value="0.24895833333333334" />
-        <entry key="..\:/Sava/app/src/main/res/layout/paket_komplit.xml" value="0.25" />
+        <entry key="..\:/Sava/app/src/main/res/layout/paket_kamar_mandi.xml" value="0.1" />
+        <entry key="..\:/Sava/app/src/main/res/layout/paket_kamar_tidur.xml" value="0.1" />
+        <entry key="..\:/Sava/app/src/main/res/layout/paket_komplit.xml" value="0.1" />
         <entry key="..\:/Sava/app/src/main/res/layout/register.xml" value="0.1" />
       </map>
     </option>

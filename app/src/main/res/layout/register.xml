@@ -2,8 +2,10 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
     android:background="#EF9F9F"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".register">
 
     <TextView
         android:id="@+id/logo"
